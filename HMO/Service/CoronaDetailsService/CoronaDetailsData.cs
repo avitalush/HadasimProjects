@@ -38,9 +38,7 @@ namespace Service.CoronaDetailsService
             if (startDate > DateTime.Now)
                 return false;
 
-            
-            //if (endDate >DateTime.Now)
-            //    return false;
+        
 
             return true;
         }
